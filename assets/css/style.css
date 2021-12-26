@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+
+  }
+
+  .top {
+    background-color: #F2CEDA;
+  }
+  
+  .container {
+    width: 75%;
+    margin: 0 auto;
+
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+  }
+
+
+  
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    
+
+  }
+  
+  header ul li {
+    margin-left: 42px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #150101;
+    text-transform: capitalize;
+  }
+  header ul :first-child { color: #D23166;
+    font-weight: 700; }
+
+    .ice-cream {
+      margin: 140px 0 146px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    /* .picture,
+    .about-ice-cream {
+      flex: 1;
+      border: 2px solid red;
+    }
+     */
+    /* .picture {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+    
+    .about-ice-cream h1 {
+      font-size: 57.33px;
+      line-height: 120.5%;
+      color: #0F0101;
+      font-family: 'Fredoka One';
+    }
+    
+    .about-ice-cream p {
+      font-size: 16px;
+      line-height: 26px;
+      color: #727272;
+      margin: 60px 0;
+    }
+    
+    .about-ice-cream button {
+      background: #D23166;
+      border-radius: 5px;
+      font-family: 'Hind Madurai';
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FAFAFA;
+      border: none;
+      position: absolute;
+      width: 165px;
+      height: 49px;
+      left: 255px;
+      top: 600px;
+    }
+/* .down {
+  display: flex;
+  flex-wrap: wrap;
+} */
+footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: white;
+
+    }
+.truck,
+.packaging,
+.money-back,
+.fast-delivery{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Hind Madurai', sans-serif;
+ 
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  
+}
+/* footer div { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+} */
+
+    
+
+
+
+
+  
